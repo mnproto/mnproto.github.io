@@ -47,9 +47,28 @@
 				  .sidenav {padding-top: 15px;}
 				  .sidenav a {font-size: 18px;}
 				}
+				
+				@media only screen and (max-device-width: 480px) {
+					.show-mobile {
+						display: block;
+					}
+					.hide-mobile {
+						display: none;
+					}
+				}
+				@media only screen and (min-device-width: 481px) {
+					.show-mobile {
+						display: none;
+					}
+					.hide-mobile {
+						display: block;
+					}
+				}
+				
 			</style>
 		</head>
 		<body>
+			<nav class="show-mobile">
 			<div id="mySidenav" class="sidenav">
 			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			  <a href="/">Home</a>
@@ -67,8 +86,16 @@
 				    document.getElementById("mySidenav").style.width = "0";
 				}
 			</script>
+			</nav>
 			<img src="/images/header2.jpg">
-
+			<nav class="hide-mobile">
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
 			<div class="container">
 			
 			{{ content }}
