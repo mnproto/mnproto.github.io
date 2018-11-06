@@ -108,7 +108,7 @@
 
 					<h3>Get in touch</h3>
 
-					<form action="send_form_email.php" method="post">
+					<form name="contactform" method="post" action="send_form_email.php">
 
 						<div class="field half first">
 							<label for="name">Name</label>
@@ -123,7 +123,8 @@
 							<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
 						</div>
 						<ul class="actions">
-							<li><input value="Send Message" class="button alt" type="submit"></li>
+							<li><input value="Send Message" class="button alt" type="submit">
+								<a href="http://mnproto.com/email_form.php">Email Form</a></li>
 						</ul>
 					</form>
 
