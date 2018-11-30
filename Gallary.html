@@ -10,6 +10,38 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			div.gallery img {
+			    width: 100%;
+			    height: auto;
+			}
+
+
+			.responsive {
+			    padding: 0 6px;
+			    float: left;
+			    width: 24.99999%;
+			}
+
+			@media only screen and (max-width: 700px) {
+			    .responsive {
+			        width: 49.99999%;
+			        margin: 6px 0;
+			    }
+			}
+
+			@media only screen and (max-width: 500px) {
+			    .responsive {
+			        width: 100%;
+			    }
+			}
+
+			.clearfix:after {
+			    content: "";
+			    display: table;
+			    clear: both;
+			}
+		</style>
 	</head>
 	<body>
 
@@ -30,7 +62,12 @@
 		<!-- Banner -->
 			<section id="banner">
 				<div class="inner">
-					<header> <h1>About Us</h1> </header>
+					<header>
+						<h1>Gallary</h1>
+					</header>
+
+					<footer>
+					</footer>
 				</div>
 			</section>
 
@@ -40,10 +77,37 @@
 				<div class="inner">
 					<div class="flex flex-2">
 						<article>
-								<p>With over 8 years of 3D modeling and 3D printing experience, we are experienced in the market of rapid prototyping. This, combined with 5 years of experience in R&D and Manufacturing and a degree in Industrial & Systems Engineering, gives us the knowledge to quickly take sketches or ideas and turn them into real functional products that can immediately be used or marketed to investors.</p>
+							<div class="responsive">
+								<div class="gallery">
+										<img src="images/gallary/keys.jpg" alt="" width="600" height="400">
+								</div>
+							</div>
+
+							<div class="responsive">
+								<div class="gallery">
+										<img src="images/gallary/cover.jpg" alt="" width="600" height="400">
+								</div>
+							</div>
+
+							<div class="responsive">
+								<div class="gallery">
+										<img src="images/gallary/cube.jpg" alt="" width="600" height="400">
+								</div>
+							</div>
+
+							<div class="responsive">
+								<div class="gallery">
+										<img src="images/gallary/mount.jpg" alt="" width="600" height="400">
+								</div>
+							</div>
+
+							<div class="responsive">
+								<div class="gallery">
+										<img src="images/gallary/clip.jpg" alt="" width="600" height="400">
+								</div>
+							</div>
 
 						</article>
-
 					</div>
 				</div>
 			</section>
