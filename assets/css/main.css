@@ -1900,6 +1900,10 @@
 		margin-top: -0.6em;
 	}
 
+
+
+
+
 /* Flex */
 
 	.flex {
@@ -3006,6 +3010,10 @@
 			font-size: 2em;
 		}
 
+		#banner img {
+			width: 200px;
+		}
+
 		#banner p {
 			font-size: 1em;
 			color: rgba(255, 255, 255, 0.55);
@@ -3054,6 +3062,21 @@
 				padding: 0 6em;
 			}
 
+			#banner h3 {
+				font-size: 2em;
+			}
+			#banner p {
+				font-size: 1.1em;
+			}
+
+			#banner img {
+				width: 200px;
+			}
+
+			#banner a {
+				font-size: 100%;
+			}
+
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3071,7 +3094,19 @@
 				}
 
 				#banner h3 {
-					font-size: 1.25em;
+					font-size: 2em;
+				}
+
+				#banner p {
+					font-size: 1em;
+				}
+
+				#banner img {
+					width: 200px;
+				}
+
+				#banner a {
+					font-size: 100%;
 				}
 
 				#banner .flex div {
@@ -3092,15 +3127,29 @@
 				}
 
 				#banner h1 {
-					font-size: 2.5em;
+					font-size: 3em;
 				}
 
 				#banner h3 {
-					font-size: 1.25em;
+					font-size: 3em;
 				}
+
+				#banner p {
+					font-size: 1.75em;
+				}
+
+				#banner img {
+					width: 200px;
+				}
+
+				#banner a {
+					font-size: 100%;
+				}
+
 
 				#banner .flex div {
 					font-size: .85em;
+					border-right: 0px;
 					padding: 0 1.5em;
 				}
 
@@ -3117,11 +3166,23 @@
 				}
 
 				#banner h1 {
-					font-size: 2em;
+					font-size: 3.5em;
 				}
 
 				#banner h3 {
-					font-size: 1.25em;
+					font-size: 3em;
+				}
+
+				#banner p {
+					font-size: 1.75em;
+				}
+
+				#banner img {
+					width: 0px;
+				}
+
+				#banner a {
+					font-size: 100%;
 				}
 
 				#banner .flex {
@@ -3144,7 +3205,7 @@
 		@media screen and (max-width: 480px) {
 
 			#banner h1 {
-				font-size: 1.5em;
+				font-size: 3em;
 			}
 
 		}
