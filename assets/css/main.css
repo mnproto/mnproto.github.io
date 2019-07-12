@@ -1613,6 +1613,8 @@
 
 /* Type */
 
+
+
 	body, input, select, textarea {
 		color: #9a9a9a;
 		font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
@@ -1620,11 +1622,27 @@
 		font-weight: 400;
 		line-height: 1.65;
 	}
+	img.mobileuse {
+		width:8em;
+		height:8em;
+		margin:3em;
+	}
+	section.mobileuse {
+		padding-bottom:32px;
+	}
 
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
+			}
+			img.mobileuse {
+				width:8em;
+				height:8em;
+				margin:3em;
+			}
+			section.mobileuse {
+				padding-bottom:32px;
 			}
 
 		}
@@ -1634,6 +1652,14 @@
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+			img.mobileuse {
+				width:8em;
+				height:8em;
+				margin:3em;
+			}
+			section.mobileuse {
+				padding-bottom:32px;
+			}
 
 		}
 
@@ -1642,6 +1668,16 @@
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+
+			img.mobileuse {
+				width:0%;
+				margin:0%;
+				height:0%;
+			}
+			section.mobileuse {
+				padding-bottom:0px;
+			}
+
 
 		}
 
@@ -1846,6 +1882,9 @@
 			section.wrapper, article.wrapper {
 				padding: 4em 0;
 			}
+			section.mobileuse, article.mobileuse {
+				padding-bottom:0px;
+			}
 
 		}
 
@@ -1853,6 +1892,9 @@
 
 			section.wrapper, article.wrapper {
 				padding: 3em 0;
+			}
+			section.mobileuse, article.mobileuse {
+				padding-bottom:0px;
 			}
 
 				section.wrapper header, article.wrapper header {
