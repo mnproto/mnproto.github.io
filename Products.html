@@ -40,14 +40,22 @@
 			grid-area: desc2;
 			text-align: left;
 		}
-		.item5 { grid-area: footer; }
+		.pic3 {
+			grid-area: pic3;
+			text-align: center;
+		}
+		.desc3 {
+			grid-area: desc3;
+			text-align: left;
+		}
+
 
 		.grid-container {
 		  display: grid;
 		  grid-template:
 		    'pic1 pic1 desc1 desc1 desc1 desc1'
 		    'pic2 pic2 desc2 desc2 desc2 desc2'
-		    'menu footer footer footer footer footer';
+		    'pic3 pic3 desc3 desc3 desc3 desc3';
 		  grid-gap: 10px;
 
 		  padding: 10px;
@@ -80,6 +88,20 @@
 		}
 
 		.desc2 > p{
+
+			width: 900px;
+			font-size: 0.75em;
+			margin-bottom: 0.2em;
+		}
+
+		.desc3 > h2{
+			margin-bottom: 0.1em;
+			font-size: 1.25em;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+
+		.desc3 > p{
 
 			width: 900px;
 			font-size: 0.75em;
@@ -169,6 +191,18 @@
 			<p> <b>Coming Soon!</b></p>
 
 		</div>
+
+		<div class="pic3">
+			<img src="images/products/keyfob/KeyFobBlack.png" style="width: 350px">
+		</div>
+
+		<div class="desc3">
+
+		<h2>Saab 9-3 KeyFob Casing</h2>
+		<div class="subh">Available in Dozens of Color Configurations - UV Resistant Plastic</div>
+		<p> <b>Coming Soon!</b></p>
+
+	</div>
 
 
 			</div>
