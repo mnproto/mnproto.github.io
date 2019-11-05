@@ -3600,3 +3600,186 @@ html, body {
   height: 50px;
   border: none;
 }
+
+
+
+
+
+
+@media (max-width: 25000px){
+	.grid-container {
+		display: grid;
+		grid-template:
+			'pic1 pic1 desc1 desc1 desc1 desc1'
+			'pic2 pic2 desc2 desc2 desc2 desc2'
+			'pic3 pic3 desc3 desc3 desc3 desc3';
+		grid-gap: 10px;
+
+		padding: 10px;
+	}
+
+	.pic1 {
+		grid-area: pic1;
+		text-align: center;
+	}
+	.desc1 {
+		grid-area: desc1;
+		text-align: left;
+	}
+	.pic2 {
+		grid-area: pic2;
+		text-align: center;
+	}
+	.desc2 {
+		grid-area: desc2;
+		text-align: left;
+	}
+	.pic3 {
+		grid-area: pic3;
+		text-align: center;
+	}
+	.desc3 {
+		grid-area: desc3;
+		text-align: left;
+	}
+
+	.grid-container > div {
+
+		padding: 20px 0;
+		font-size: 30px;
+	}
+
+	.desc1 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc1 > p{
+		width: 900px;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+	}
+
+	.desc2 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc2 > p{
+
+		width: 900px;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+	}
+
+	.desc3 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc3 > p{
+
+		width: 900px;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+	}
+
+}
+
+@media (max-width: 1280px){
+	.grid-container {
+		display: grid;
+		grid-template:
+			'pic1'
+			'desc1'
+			'pic2'
+			'desc2'
+			'pic3'
+			'desc3';
+		grid-gap: 10px;
+
+		padding: 10px;
+
+		text-align: center;
+	}
+
+	.pic1 {
+		grid-area: pic1;
+		text-align: center;
+	}
+	.desc1 {
+		grid-area: desc1;
+		text-align: center;
+	}
+	.pic2 {
+		grid-area: pic2;
+		text-align: center;
+	}
+	.desc2 {
+		grid-area: desc2;
+		text-align: center;
+	}
+	.pic3 {
+		grid-area: pic3;
+		text-align: center;
+	}
+	.desc3 {
+		grid-area: desc3;
+		text-align: center;
+	}
+
+	.grid-container > div {
+
+		padding: 20px 0;
+		font-size: 30px;
+	}
+
+	.desc1 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc1 > p{
+		width: 100%;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+		margin-right: 0em;
+	}
+
+	.desc2 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc2 > p{
+
+		width: 100%;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+	}
+
+	.desc3 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc3 > p{
+
+		width: 100%;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+	}
+
+}
