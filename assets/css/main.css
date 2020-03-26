@@ -3631,7 +3631,8 @@ html, body {
 			'pic1 pic1 desc1 desc1 desc1 desc1'
 			'pic2 pic2 desc2 desc2 desc2 desc2'
 			'pic3 pic3 desc3 desc3 desc3 desc3'
-			'pic4 pic4 desc4 desc4 desc4 desc4';
+			'pic4 pic4 desc4 desc4 desc4 desc4'
+			'pic5 pic5 desc5 desc5 desc5 desc5';
 		grid-gap: 10px;
 
 		padding: 10px;
@@ -3667,6 +3668,14 @@ html, body {
 	}
 	.desc4 {
 		grid-area: desc4;
+		text-align: left;
+	}
+	.pic5 {
+		grid-area: pic5;
+		text-align: center;
+	}
+	.desc5 {
+		grid-area: desc5;
 		text-align: left;
 	}
 
@@ -3730,6 +3739,19 @@ html, body {
 		font-size: 0.75em;
 		margin-bottom: 0.2em;
 	}
+	.desc5 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc5 > p{
+
+		width: 900px;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+	}
 
 }
 
@@ -3744,7 +3766,9 @@ html, body {
 			'pic3'
 			'desc3'
 			'pic4'
-			'desc4';
+			'desc4'
+			'pic5'
+			'desc5';
 		grid-gap: 10px;
 
 		padding: 10px;
@@ -3782,6 +3806,14 @@ html, body {
 	}
 	.desc4 {
 		grid-area: desc4;
+		text-align: center;
+	}
+	.pic5 {
+		grid-area: pic5;
+		text-align: center;
+	}
+	.desc5 {
+		grid-area: desc5;
 		text-align: center;
 	}
 
@@ -3841,6 +3873,19 @@ html, body {
 	}
 
 	.desc4 > p{
+
+		width: 100%;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+	}
+	.desc5 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc5 > p{
 
 		width: 100%;
 		font-size: 0.75em;
