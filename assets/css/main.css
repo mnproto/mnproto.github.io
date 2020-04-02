@@ -3632,7 +3632,9 @@ html, body {
 			'pic2 pic2 desc2 desc2 desc2 desc2'
 			'pic3 pic3 desc3 desc3 desc3 desc3'
 			'pic4 pic4 desc4 desc4 desc4 desc4'
-			'pic5 pic5 desc5 desc5 desc5 desc5';
+			'pic5 pic5 desc5 desc5 desc5 desc5'
+			'pic6 pic6 desc6 desc6 desc6 desc6'
+			'pic7 pic7 desc7 desc7 desc7 desc7';
 		grid-gap: 10px;
 
 		padding: 10px;
@@ -3676,6 +3678,22 @@ html, body {
 	}
 	.desc5 {
 		grid-area: desc5;
+		text-align: left;
+	}
+	.pic6 {
+		grid-area: pic6;
+		text-align: center;
+	}
+	.desc6 {
+		grid-area: desc6;
+		text-align: left;
+	}
+	.pic7 {
+		grid-area: pic7;
+		text-align: center;
+	}
+	.desc7 {
+		grid-area: desc7;
 		text-align: left;
 	}
 
@@ -3753,6 +3771,34 @@ html, body {
 		margin-bottom: 0.2em;
 	}
 
+	.desc6 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc6 > p{
+
+		width: 900px;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+	}
+
+	.desc7 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc7 > p{
+
+		width: 900px;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+	}
+
 }
 
 @media (max-width: 1280px){
@@ -3768,7 +3814,11 @@ html, body {
 			'pic4'
 			'desc4'
 			'pic5'
-			'desc5';
+			'desc5'
+			'pic6'
+			'desc6'
+			'pic7'
+			'desc7';
 		grid-gap: 10px;
 
 		padding: 10px;
@@ -3813,6 +3863,24 @@ html, body {
 		text-align: center;
 	}
 	.desc5 {
+		grid-area: desc5;
+		text-align: center;
+	}
+
+	.pic6 {
+		grid-area: pic5;
+		text-align: center;
+	}
+	.desc6 {
+		grid-area: desc5;
+		text-align: center;
+	}
+
+	.pic7 {
+		grid-area: pic5;
+		text-align: center;
+	}
+	.desc7 {
 		grid-area: desc5;
 		text-align: center;
 	}
@@ -3886,6 +3954,34 @@ html, body {
 	}
 
 	.desc5 > p{
+
+		width: 100%;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+	}
+
+	.desc6 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc6 > p{
+
+		width: 100%;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+	}
+
+	.desc7 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc7 > p{
 
 		width: 100%;
 		font-size: 0.75em;
