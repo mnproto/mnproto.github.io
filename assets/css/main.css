@@ -3868,20 +3868,20 @@ html, body {
 	}
 
 	.pic6 {
-		grid-area: pic5;
+		grid-area: pic6;
 		text-align: center;
 	}
 	.desc6 {
-		grid-area: desc5;
+		grid-area: desc6;
 		text-align: center;
 	}
 
 	.pic7 {
-		grid-area: pic5;
+		grid-area: pic7;
 		text-align: center;
 	}
 	.desc7 {
-		grid-area: desc5;
+		grid-area: desc7;
 		text-align: center;
 	}
 
@@ -3945,6 +3945,217 @@ html, body {
 		width: 100%;
 		font-size: 0.75em;
 		margin-bottom: 0.2em;
+	}
+	.desc5 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc5 > p{
+
+		width: 100%;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+	}
+
+	.desc6 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc6 > p{
+
+		width: 100%;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+	}
+
+	.desc7 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc7 > p{
+
+		width: 100%;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+	}
+
+}
+
+@media (max-width: 650px){
+	.grid-container {
+		display: grid;
+		grid-template:
+			'pic1'
+			'desc1'
+			'pic2'
+			'desc2'
+			'pic3'
+			'desc3'
+			'pic4'
+			'desc4'
+			'pic5'
+			'desc5'
+			'pic6'
+			'desc6'
+			'pic7'
+			'desc7';
+		grid-gap: 10px;
+
+		padding: 10px;
+
+		text-align: center;
+	}
+
+	.pic1 {
+		grid-area: pic1;
+		text-align: center;
+
+	}
+	.desc1 {
+		grid-area: desc1;
+		text-align: center;
+
+	}
+	.pic2 {
+		grid-area: pic2;
+		text-align: center;
+
+	}
+	.desc2 {
+		grid-area: desc2;
+		text-align: center;
+
+	}
+	.pic3 {
+		grid-area: pic3;
+		text-align: center;
+
+	}
+	.desc3 {
+		grid-area: desc3;
+		text-align: center;
+
+	}
+	.pic4 {
+		grid-area: pic4;
+		text-align: center;
+
+	}
+	.desc4 {
+		grid-area: desc4;
+		text-align: center;
+
+	}
+	.pic5 {
+		grid-area: pic5;
+		text-align: center;
+
+	}
+	.desc5 {
+		grid-area: desc5;
+		text-align: center;
+
+	}
+
+	.pic6 {
+		grid-area: pic6;
+		text-align: center;
+
+	}
+	.desc6 {
+		grid-area: desc6;
+		text-align: center;
+
+	}
+
+	.pic7 {
+		grid-area: pic7;
+		text-align: center;
+
+	}
+	.desc7 {
+		grid-area: desc7;
+		text-align: center;
+
+	}
+
+	.grid-container > div {
+
+		padding: 20px 0;
+		font-size: 30px;
+	}
+
+
+	.desc1 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc1 > p{
+		width: 100%;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+		margin-right: 0em;
+	}
+
+	.desc2 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc2 > p{
+
+		width: 100%;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+	}
+
+	.desc3 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc3 > p{
+
+		width: 100%;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+		padding-right:20px;
+	}
+	.desc4 > h2{
+		margin-bottom: 0.1em;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.desc4 > p{
+
+		width: 100%;
+		font-size: 0.75em;
+		margin-bottom: 0.2em;
+	}
+
+	.desc4 > a{
+		font-size:10px;
+		box-sizing: border-box;
+		height:100%;
+		font-size:9px;
 	}
 	.desc5 > h2{
 		margin-bottom: 0.1em;
